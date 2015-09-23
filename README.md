@@ -5,10 +5,6 @@ This GitHub repository hosts the code for the Android app SeriesGuide.
 
 For more information about SeriesGuide have a look at [seriesgui.de][1].
 
-Contributing
-------------
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 License
 -------
