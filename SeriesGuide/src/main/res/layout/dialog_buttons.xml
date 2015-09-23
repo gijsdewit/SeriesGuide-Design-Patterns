@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/large_padding"
+        android:paddingRight="@dimen/large_padding"
+        android:paddingTop="@dimen/large_padding"
+        android:paddingBottom="@dimen/default_padding"
+        android:measureWithLargestChild="true"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonNegative"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="160dp"
+            tools:text="Button Negative" />
+
+        <Button
+            android:id="@+id/buttonPositive"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="160dp"
+            tools:text="Button Positive" />
+    </LinearLayout>
+
+</merge>

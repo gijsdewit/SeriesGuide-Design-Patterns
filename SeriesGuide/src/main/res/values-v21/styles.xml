@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright 2014 Uwe Trottmann
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <style name="TextAppearance.Tab">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">@dimen/text_size_default_sg</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Menu">
+        <item name="android:textSize">@dimen/text_size_default_sg</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Button">
+        <item name="android:textSize">@dimen/text_size_default_sg</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Body.Bold">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Buttons -->
+    <!-- Bend to material here to avoid creating attributes for each borderless button variant -->
+    <style name="Widget.SeriesGuide.Button.Borderless" parent="android:Widget.Material.Button.Borderless">
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="Widget.SeriesGuide.Button.Borderless.Caption.Platform" />
+
+    <!-- Action bar -->
+    <style name="Widget.SeriesGuide.ActionBar">
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- Tabs -->
+    <style name="Widget.SeriesGuide.TabLayout">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+</resources>

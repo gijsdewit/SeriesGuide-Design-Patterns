@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/menu_action_shows_filter"
+        android:icon="@drawable/ic_action_filter"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        android:title="@string/action_shows_filter">
+        <menu>
+            <item
+                android:id="@+id/menu_action_shows_filter_favorites"
+                android:checkable="true"
+                android:title="@string/action_shows_filter_favorites" />
+            <item
+                android:id="@+id/menu_action_shows_filter_unwatched"
+                android:checkable="true"
+                android:title="@string/action_shows_filter_unwatched" />
+            <item
+                android:id="@+id/menu_action_shows_filter_upcoming"
+                android:checkable="true"
+                android:title="@string/action_shows_filter_upcoming" />
+            <item
+                android:id="@+id/menu_action_shows_filter_hidden"
+                android:checkable="true"
+                android:title="@string/action_shows_filter_hidden" />
+            <item
+                android:id="@+id/menu_action_shows_filter_remove"
+                android:title="@string/empty_filter" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_action_shows_add"
+        android:icon="@drawable/ic_action_new_show"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="@string/action_shows_add" />
+
+    <item
+        android:id="@+id/menu_action_shows_sort"
+        android:icon="@drawable/ic_action_sort"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="@string/action_shows_sort">
+        <menu>
+            <item
+                android:id="@+id/menu_action_shows_sort_title"
+                android:title="@string/action_shows_sort_title" />
+            <item
+                android:id="@+id/menu_action_shows_sort_episode"
+                android:title="@string/action_shows_sort_episode" />
+            <item
+                android:id="@+id/menu_action_shows_sort_favorites"
+                android:checkable="true"
+                android:title="@string/action_shows_sort_favorites" />
+            <item
+                android:id="@+id/menu_action_shows_sort_ignore_articles"
+                android:checkable="true"
+                android:title="@string/action_sort_ignore_articles" />
+        </menu>
+    </item>
+
+</menu>

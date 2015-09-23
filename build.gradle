@@ -1,0 +1,36 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.github.ben-manes.versions'
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.3.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.8'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+}
+
+ext {
+    compileSdkVersion = 22
+    buildToolsVersion = '21.1.2'
+
+    // API level 15+ -> version 15xxx
+    versionCode = 15125
+    versionName = '24'
+}
+
+ext.libraries = [
+
+        supportv4: 'com.android.support:support-v4:22.2.1',
+        supportannotations: 'com.android.support:support-annotations:22.2.1'
+
+]
